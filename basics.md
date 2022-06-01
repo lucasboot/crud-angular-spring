@@ -30,6 +30,9 @@ Configurar o roteamento de novos componentes e módulos da app
 - TS Hero (view, command palette): convenções de import no app.modules
 - Modules são a forma de organizar a aplicação em Angular, todos os componentes dentro do módulo só são visíveis dentro dele, caso forem necessários fora, é necessário exportar
 - material.io para alterar cores
+- Spinner enquanto a lista carrega
+<div *ngIf="courses | async">
+O pipe async realiza subscribe no Observable da lista de cursos
 
 #### Importando do Angular Material Component
 - Vai no .module do module ou do app
@@ -62,3 +65,5 @@ No modules do modules a ser utilizado, no imports chama AppMaterialModule e tá 
 - Model
 - Service (manipulação de dados e lógica de negócio)
 - Decorator @Injectable - Serviço e @Component - Componente: tratar ciclo de vida
+- Observable (retorno do http get)
+- Pipe com tap para verificar a saída do get, first ou take1 para fechar conexão se for dar get estático
