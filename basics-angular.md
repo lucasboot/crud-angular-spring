@@ -56,6 +56,7 @@ No modules do modules a ser utilizado, no imports chama AppMaterialModule e tá 
 - ng g m nome-modulo --routing
 - ng g c nome-modulo/nome-componente
 - ng g s nome-modulo/services/nome-serviço
+- ng g pipe shared/pipes/nome-do-alvo-pipe (categoria)
 
 #### Conceitos relevantes
 - Component (selector: tag html)
@@ -67,3 +68,13 @@ No modules do modules a ser utilizado, no imports chama AppMaterialModule e tá 
 - Decorator @Injectable - Serviço e @Component - Componente: tratar ciclo de vida
 - Observable (retorno do http get)
 - Pipe com tap para verificar a saída do get, first ou take1 para fechar conexão se for dar get estático
+- Tipo Pipe no Angular (implementa a interface PipeTransform)
+
+#### Update
+- ng update e vê quais dá pra atualizar, colocando a versão estável sugerida
+
+#### Links
+- Ícones: https://fonts.google.com/icons?selected=Material+Icons
+- Componentes: https://material.angular.io/components/categories
+- Documentação: https://angular.io/docs
+

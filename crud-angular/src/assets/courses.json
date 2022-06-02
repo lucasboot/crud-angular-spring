@@ -1,9 +1,9 @@
 [
-  { "_id": "1", "name": "Angular", "category": "Front-end"},
-  { "_id": "2", "name": "Spring", "category": "Back-end"},
-  { "_id": "3", "name": "VueJS", "category": "Front-end"},
-  { "_id": "4", "name": "React", "category": "Front-end"},
-  { "_id": "5", "name": "React Native", "category": "Mobile"}
+  { "_id": "1", "name": "Angular", "category": "front-end"},
+  { "_id": "2", "name": "Spring", "category": "back-end"},
+  { "_id": "3", "name": "VueJS", "category": "front-end"},
+  { "_id": "4", "name": "React", "category": "front-end"},
+  { "_id": "5", "name": "React Native", "category": "mobile"}
 
 
 

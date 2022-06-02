@@ -6,7 +6,7 @@ import { delay, first, take, tap } from 'rxjs';
   providedIn: 'root' //disponivel a nivel global do projeto
 })
 export class CoursesService {
-  private readonly API = '/assets/courses.json';
+  private readonly API = 'api/courses';
   constructor(private httpClient: HttpClient) { }
 
   //Métodos para suprir os componentes
@@ -14,7 +14,7 @@ listAll(){
   return this.httpClient.get<Course[]>(this.API).pipe(
    //take(1),
    first(), //apenas a primeira resposta
-    delay(2000),
+    //delay(2000),
    tap(courses => console.log(courses))
   );
 }
