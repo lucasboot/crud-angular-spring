@@ -21,6 +21,7 @@
 - @RestController -> @Controller e @ResponseBody
 #### Links
 - Spring init: https://start.spring.io/
+- Roadmap: https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/
   
 #### Update
 - Vai até o pom.xml, apaga a versão, ctrl space e vê qual é a nova
